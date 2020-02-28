@@ -10,6 +10,11 @@
       yum:
        name: python-pip
        state: present
+       
+    - name: install docker lib
+      pip:
+        name: docker
+        state: latest
 
     - name: creation du conteneur
       docker_container:
