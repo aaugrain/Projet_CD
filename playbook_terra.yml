@@ -1,5 +1,5 @@
 ---
-- hosts: MounaVM2
+- hosts: localhost
   tasks:
     - name: install epel-release
       yum:
