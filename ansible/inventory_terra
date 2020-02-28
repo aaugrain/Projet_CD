@@ -1,1 +1,4 @@
 MounaVM2 ansible_port=22 ansible_host=40.89.128.182 
+
+[server]
+MounaVM2
